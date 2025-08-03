@@ -1,0 +1,27 @@
+# Ignore OpenStudio simulation output folders
+model/run/
+model/out/
+*.err
+*.log
+*.htm
+*.rdd
+*.mdd
+*.idf
+*.sql
+
+# Ignore EnergyPlus weather files (optional if large)
+*.ddy
+*.rvi
+*.mvi
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Allow results CSVs and plots to be tracked
+!results/*.csv
+!results/*.png
