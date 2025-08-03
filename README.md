@@ -19,6 +19,24 @@ The goal is to evaluate **energy performance**, **cooling strategies**, and **wa
 - **`docs/`** – Methodology, schematics, and references
 - **`README.md`** – You are here
 
+
+## How to Run the Model
+
+### 1. Requirements
+- [OpenStudio](https://openstudio.net/) (tested on version 1.9)
+- Python 3.10+ with `pandas` installed
+
+### 2. Run the OpenStudio Simulation
+1. Open `model/base_model.osm` in OpenStudio.
+2. Ensure the Abu Dhabi weather file (`model/AbuDhabi.epw`) is linked.
+3. Run the simulation (this will generate `eplusout.sql` in `model/run/`).
+
+### 3. Extract Results
+1. From the project root, run:
+   ```bash
+   python scripts/extract_results.py
+
+
 ---
 
 ## How to Reproduce
