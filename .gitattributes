@@ -1,0 +1,21 @@
+# Ensure consistent line endings for text files
+*.md text eol=lf
+*.py text eol=lf
+*.csv text eol=lf
+
+# Treat OpenStudio and EnergyPlus models as binary (no diff)
+*.osm binary
+*.idf binary
+*.sql binary
+
+# Weather files (can be huge, treat as binary)
+*.epw binary
+*.ddy binary
+
+# Plots and images (binary)
+*.png binary
+*.jpg binary
+
+# Optional: prepare for Git LFS (uncomment if using LFS)
+# *.epw filter=lfs diff=lfs merge=lfs -text
+# *.sql filter=lfs diff=lfs merge=lfs -text
