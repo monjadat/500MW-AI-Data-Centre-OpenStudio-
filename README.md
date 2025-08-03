@@ -1,2 +1,27 @@
-# 500MW-AI-Data-Centre-OpenStudio-
-The model is simulating the future hyperscale AI data centres that are going to be in several hundreds (and could go to thousands) of mega watts using OpenStudio/EnergyPlus which already concentrate on data centres.
+
+# AI Data Center Energy Model (OpenStudio)
+
+## Overview
+This repository contains an OpenStudio model of a **500 MW hyperscale AI data center** located in **Abu Dhabi** simulating the hot climate areas. The model focuses on:
+- Direct-to-Chip (D2C) liquid cooling
+- Minimal lighting/occupancy loads
+- Dedicated Outdoor Air System (DOAS) with dehumidification
+- Water use and heat recovery estimation
+
+The goal is to evaluate **energy performance**, **cooling strategies**, and **water consumption** in extreme climates.
+
+---
+
+## Repository Structure
+- **`model/`** – Main OpenStudio files (`.osm`), weather data, and measures
+- **`results/`** – Processed outputs, plots, and reports
+- **`scripts/`** – Python scripts to extract and visualize results
+- **`docs/`** – Methodology, schematics, and references
+- **`README.md`** – You are here
+
+---
+
+## How to Reproduce
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/AI-DataCenter-OpenStudio.git
