@@ -11,7 +11,7 @@ The purpose of this project is to model the energy, cooling, and water performan
 
 ## 2. Model Setup
 ### 2.1 Geometry and Zoning
-- Single data center pod divided into five zones (representing five aisles).
+- Single data center building divided into 100 zones (representing 100 aisles).
 - Each aisle includes 60 high-performance compute racks with 8 DGX H100 systems per rack.
 
 ### 2.2 Internal Loads
