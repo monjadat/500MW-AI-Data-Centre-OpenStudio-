@@ -50,7 +50,7 @@ daily_facility.png, daily_hvac.png, daily_water.png, pue.png
 ## How to Reproduce
 1. Clone the repository:
 
-   git clone https://github.com/your-username/AI-DataCenter-OpenStudio.git
+   git clone [https://github.com/your-username/AI-DataCenter-OpenStudio.git](https://github.com/monjadat/500MW-AI-Data-Centre-OpenStudio-.git)
 
 2. Run the OpenStudio simulation.
 3. Execute the Python post-processing script as described above
