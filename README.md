@@ -25,7 +25,7 @@ The goal is to evaluate **energy performance**, **cooling strategies**, and **wa
 ## 🚀 How to Run the Model and Generate Results
 
 ### 1. Requirements
-- [OpenStudio](https://openstudio.net/) (tested with version X.X.X)  
+- [OpenStudio](https://openstudio.net/) (tested with version 3.10.0)  
 - Python 3.10+ with the following libraries:
   ```bash
   pip install pandas matplotlib
